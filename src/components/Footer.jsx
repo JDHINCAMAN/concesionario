@@ -1,11 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return (
-    <div>
-      <footer>Este es el footer</footer>
-    </div>
-  );
+  return <div className="bg-yellow-300">Footer</div>;
 };
 
 export default Footer;
