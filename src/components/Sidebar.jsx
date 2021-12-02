@@ -1,7 +1,7 @@
 import React from "react";
 
 const Sidebar = () => {
-  return <div>este es el side bar</div>;
+  return <nav className="w-72 bg-yellow-300">Sidebar</nav>;
 };
 
 export default Sidebar;
