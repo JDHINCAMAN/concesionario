@@ -4,10 +4,12 @@ import React from "react";
 const PrivateLayout = ({ children }) => {
   return (
     <div className="flex w-screen h-screen">
-      <Sidebar />
-      <main className="flex w-full bg-indigo-500 overflow-y-scroll">
-        {children}
-      </main>
+      <div className="flex flex-nowrap h-full w-full">
+        <Sidebar />
+        <main className="flex w-full bg-gray-50 overflow-y-scroll items-center justify-center">
+          {children}
+        </main>
+      </div>
     </div>
   );
 };
