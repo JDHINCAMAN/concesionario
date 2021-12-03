@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Vehiculos = () => {
   /*useEffect -> funcion de react, Esto es un use effect que carga 
   una sola vez cuando la pagina se renderiza, porque tiene el array
-  de dependencias vacio 
+  de dependencias vacio.
   estructura:
   useEffect(() => {
     console.log("Hola Mundo");
@@ -12,7 +12,10 @@ const Vehiculos = () => {
   const [nombreVehiculo, setNombreVehiculo] = useState("");
 
   useEffect(() => {
-    console.log("Esta es una funcio nque se ejecuta cada vez que ");
+    console.log(
+      "Esta es una funcion que se ejecuta cada vez que nombre vehiculo cambie"
+    );
+    console.log("El valor de la variable es: ", nombreVehiculo);
   }, [nombreVehiculo]);
 
   const cambioDeNombre = (evento) => {
