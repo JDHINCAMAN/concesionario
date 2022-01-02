@@ -13,7 +13,7 @@ import Clientes from "pages/admin/Clientes";
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <Switch>
           <Route path={["/admin", "/admin/vehiculos", "/admin/clientes"]}>
@@ -54,7 +54,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </div>
+    </>
   );
 }
 
