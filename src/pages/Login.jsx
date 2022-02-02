@@ -61,18 +61,14 @@ const Login = () => {
             </div>
           </div>
           <div>
-            <button
-              type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-black bg-yellow-300 hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-400"
-            >
-              <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                {/* <LockClosedIcon
-                  className='h-5 w-5 text-indigo-500 group-hover:text-indigo-400'
-                  aria-hidden='true'
-                /> */}
-              </span>
-              <Link to="/admin">Inicia sesión</Link>
-            </button>
+            <Link to="/admin">
+              <button
+                type="submit"
+                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-black bg-yellow-300 hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-400"
+              >
+                Inicia sesión
+              </button>
+            </Link>
           </div>
 
           <div className="flex items-center justify-between">
